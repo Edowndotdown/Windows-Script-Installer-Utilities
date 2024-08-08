@@ -29,4 +29,4 @@ if '%errorlevel%' NEQ '0' (
 cd..
 assoc .wsi=WSIFile
 ftype WSIFile="%cd%\WSI.bat" "%%1"
-setx WorkingWSIDIR %cd%
+setx "WorkingWSIDIR" "%cd%"
